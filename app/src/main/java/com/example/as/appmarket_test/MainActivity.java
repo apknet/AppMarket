@@ -27,6 +27,7 @@ import static com.example.as.appmarket_test.MainActivity.tab_title_4;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    ////Test ......
     static TextView tab_title_1, tab_title_2, tab_title_3, tab_title_4;
     static ViewPager myViewPager;
     static ImageView tab_line;
