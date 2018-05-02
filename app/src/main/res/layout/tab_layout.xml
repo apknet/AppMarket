@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fitsSystemWindows="false">
+
+        <TextView
+            android:id="@+id/tab_title_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Featured"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:background="@drawable/tab_title" />
+
+        <TextView
+            android:id="@+id/tab_title_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Categories"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:background="@drawable/tab_title" />
+
+        <TextView
+            android:id="@+id/tab_title_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Manager"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:background="@drawable/tab_title" />
+
+        <TextView
+            android:id="@+id/tab_title_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Me"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:background="@drawable/tab_title" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/tab_line"
+        android:layout_width="90dp"
+        android:layout_height="5dp"
+        android:scaleType="matrix"
+        android:src="@drawable/tab_line" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cddad2"/>
+
+
+
+</LinearLayout>
